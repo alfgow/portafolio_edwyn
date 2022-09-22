@@ -1,0 +1,57 @@
+.main {
+	margin-inline: 1rem;
+	margin-block-start: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	margin-block-end: 8rem;
+}
+
+.main-avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-block-end: 2.5rem;
+}
+
+.main-avatar img {
+	block-size: 5rem;
+	inline-size: 5rem;
+}
+
+.main h1 {
+	text-align: center;
+	margin: 0;
+	font: var(--headline4);
+	color: var(--primary);
+}
+
+.main p {
+	font: var(--body1);
+	text-align: center;
+	margin: 0;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.main-container i {
+	block-size: 2rem;
+	inline-size: 2rem;
+	font-size: 2rem;
+	color: var(--primary);
+}
+
+.main-container i:first-child {
+	margin-block-start: 1.5rem;
+}
+
+.main-container h5 {
+	font: var(--headline5);
+	margin: 0;
+}

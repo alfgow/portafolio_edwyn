@@ -1,0 +1,19 @@
+header {
+	padding-inline: 1rem;
+	padding-block: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-container {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.header-container i {
+	block-size: 1.5rem;
+	inline-size: 1.5rem;
+	font-size: 1.5rem;
+}

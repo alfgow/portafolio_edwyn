@@ -1,0 +1,56 @@
+.proyects-marvol {
+	padding-block-end: 5rem;
+}
+
+.marvol-img {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.marvol-img img {
+	block-size: 19rem;
+	inline-size: 19rem;
+	position: absolute;
+	z-index: 2;
+}
+
+.marvol-container {
+	background: var(--primary);
+	padding-block: 4rem;
+	padding-inline: 1.5rem;
+	position: absolute;
+	margin-block-start: 16rem;
+	gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	block-size: 19.37rem;
+	inline-size: 18rem;
+	z-index: 1;
+}
+
+.marvol-title {
+	color: var(--white);
+	font: var(--headline4);
+	margin: 0;
+}
+
+.marvol-container p {
+	color: var(--white);
+	font: var(--body1);
+}
+
+.marvol-container .btn-transparent {
+	border: 1px solid var(--secondary);
+	color: var(--secondary);
+}
+
+.marvol-content-secondary {
+	margin-block-start: 17rem;
+	margin-inline-start: 1.35rem;
+	padding-block: 4rem;
+	padding-inline: 1.5rem;
+	block-size: 19.37rem;
+	inline-size: 18rem;
+	background: var(--secondary);
+	position: relative;
+}

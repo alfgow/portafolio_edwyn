@@ -1,0 +1,26 @@
+.btn {
+	padding-block: 0.75rem;
+	padding-inline: 1.5rem;
+	border: none;
+	font: var(--button);
+	text-decoration: none;
+}
+
+.btn-primary {
+	color: var(--white);
+	background: var(--primary);
+}
+
+.btn-transparent {
+	color: var(--primary);
+	background: transparent;
+}
+
+.btn-secondary {
+	color: var(--primary);
+	background: var(--secondary);
+}
+
+/* .is-active {
+	border: 1px solid var(--primary);
+} */

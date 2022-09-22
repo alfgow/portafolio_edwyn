@@ -1,0 +1,32 @@
+footer {
+	background: radial-gradient(
+			52.3% 42.92% at 50% 119.3%,
+			rgba(254, 224, 217, 0.5) 0%,
+			rgba(255, 255, 255, 0) 100%
+		),
+		#5928e5;
+}
+
+.footer-container {
+	padding-block: 3rem;
+	padding-inline: 1rem;
+}
+
+.footer-content .contact {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding-block-end: 5rem;
+}
+
+.footer-content .contact p,
+.footer-content .contact a,
+.footer-content .contact i,
+.footer-final > * {
+	font: var(--body1);
+	color: var(--white);
+}
+
+.footer-final {
+	padding-block-start: 2rem;
+}

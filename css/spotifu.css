@@ -1,0 +1,53 @@
+.spotifu-img {
+	display: flex;
+	justify-content: flex-end;
+}
+.spotifu-img img {
+	block-size: 19rem;
+	inline-size: 19rem;
+	position: absolute;
+	z-index: 2;
+}
+
+.spotifu-content {
+	display: flex;
+	flex-direction: column;
+	padding-block: 4rem;
+	padding-inline: 1.5rem;
+	background: var(--secondary);
+	gap: 1rem;
+	block-size: 26.12rem;
+	inline-size: 18rem;
+	position: absolute;
+	z-index: 1;
+	margin-block-start: 16rem;
+}
+
+.spotifu-content-primary {
+	margin-block-start: 18rem;
+	margin-inline-start: 1.35rem;
+	padding-block: 4rem;
+	padding-inline: 1.5rem;
+	block-size: 26.12rem;
+	inline-size: 18rem;
+	background: var(--primary);
+	position: relative;
+}
+
+.spotifu-content > h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.spotifu-content h4 {
+	text-align: left;
+}
+
+.spotifu-content p {
+	font: var(--body1);
+}
+
+.proyects-spotifu {
+	padding-block-end: 5rem;
+}

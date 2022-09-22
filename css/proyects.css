@@ -1,0 +1,25 @@
+@import url(./nikko.css);
+@import url(./marvol.css);
+@import url(./spotifu.css);
+.proyects {
+	background: var(--white);
+}
+
+.proyects-container {
+	padding-block-start: 2.5rem;
+}
+
+.proyects-container h4 {
+	font: var(--headline4);
+	color: var(--primary);
+	text-align: center;
+	padding-block-end: 1.5rem;
+	margin: 0;
+}
+
+.proyects-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-block-end: 4rem;
+}
