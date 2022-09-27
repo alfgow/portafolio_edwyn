@@ -1,0 +1,9 @@
+.is-primary {
+	background: var(--primary);
+	color: var(--white);
+}
+
+.is-secondary {
+	background: var(--secondary);
+	color: var(--black);
+}

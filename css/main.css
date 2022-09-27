@@ -9,6 +9,10 @@
 	margin-block-end: 8rem;
 }
 
+.avatar2 {
+	display: none;
+}
+
 .main-avatar {
 	display: flex;
 	align-items: center;
@@ -54,4 +58,47 @@
 .main-container h5 {
 	font: var(--headline5);
 	margin: 0;
+}
+
+@media screen and (min-width: 64rem) {
+	.main-avatar img {
+		block-size: 12.5rem;
+		inline-size: 12.5rem;
+	}
+	.avatar {
+		display: none;
+	}
+	.avatar2 {
+		display: block;
+	}
+	.main-title {
+		inline-size: 70%;
+	}
+	.main h1 {
+		font: var(--headline1);
+		text-align: center;
+	}
+	.main .wrapper {
+		inline-size: 90%;
+		margin-inline: 133px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 2.5rem;
+	}
+	.main p {
+		font: var(--body1);
+		text-align: center;
+	}
+	.main-container {
+		padding-block-start: 4rem;
+		display: flex;
+		flex-direction: row;
+	}
+	.main-container-element {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
 }

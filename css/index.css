@@ -6,6 +6,7 @@
 @import url(./testimonials.css);
 @import url(./contact.css);
 @import url(./footer.css);
+@import url(./states.css);
 :root {
 	--primary: #5928e5;
 	--white: #ffffff;

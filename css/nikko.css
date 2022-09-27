@@ -51,3 +51,40 @@ p {
 .proyects-niko {
 	padding-block-end: 5rem;
 }
+
+@media screen and (min-width: 64rem) {
+	.proyects-container {
+		border: 1px solid #a5c71b;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.proyects-niko {
+		inline-size: 58.5rem;
+		border: 1px solid red;
+		display: grid;
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(8, 100px);
+	}
+	.niko-img {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+	.niko-img img {
+		block-size: 19rem;
+		inline-size: 19rem;
+	}
+	.niko-content {
+		border: 1px solid red;
+		grid-column-start: 2;
+		grid-column-end: 7;
+		background: var(--secondary);
+		gap: 1rem;
+		block-size: 26.12rem;
+		inline-size: 18rem;
+		position: absolute;
+		z-index: 1;
+		margin-block-start: 16rem;
+	}
+}

@@ -16,11 +16,20 @@
 	background: transparent;
 }
 
+.btn-transparent-bordered {
+	color: var(--primary);
+	background: transparent;
+	border: 1px solid var(--primary);
+}
+
 .btn-secondary {
 	color: var(--primary);
 	background: var(--secondary);
 }
 
-/* .is-active {
-	border: 1px solid var(--primary);
-} */
+.btn-secondary-transparent {
+	border: 1px solid var(--white);
+
+	color: var(--secondary);
+	background: transparent;
+}

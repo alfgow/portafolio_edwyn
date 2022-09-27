@@ -6,6 +6,16 @@ header {
 	align-items: center;
 }
 
+.header-menu {
+	display: none;
+}
+
+header .wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .header-container {
 	display: flex;
 	flex-direction: row;
@@ -16,4 +26,23 @@ header {
 	block-size: 1.5rem;
 	inline-size: 1.5rem;
 	font-size: 1.5rem;
+}
+
+@media screen and (min-width: 64rem) {
+	header .wrapper {
+		inline-size: 90%;
+		margin-inline: 133px;
+	}
+	.icon-menu {
+		display: none;
+	}
+	.header-menu {
+		display: flex;
+		gap: 2.5rem;
+	}
+	.header-menu a {
+		font: var(--button);
+		color: var(--primary);
+		text-decoration: none;
+	}
 }
