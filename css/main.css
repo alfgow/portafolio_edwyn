@@ -42,6 +42,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
+	padding-block-start: 4.5rem;
 }
 
 .main-container i {
@@ -58,6 +59,10 @@
 .main-container h5 {
 	font: var(--headline5);
 	margin: 0;
+}
+
+.main-title {
+	padding-block-end: 2.5rem;
 }
 
 @media screen and (min-width: 64rem) {
