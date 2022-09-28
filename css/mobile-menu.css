@@ -1,0 +1,45 @@
+.mobile-menu {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	gap: 3.5rem;
+	padding-inline-start: 1.5rem;
+	position: absolute;
+	inline-size: 72%;
+	margin-block-start: -5rem;
+	padding-block-end: 16.5rem;
+}
+
+.logo-mobile-menu {
+	padding-block-start: 1.75rem;
+}
+
+.mobile-menu-content {
+	display: flex;
+	flex-direction: column;
+	gap: 3.5rem;
+}
+.mobile-menu-content a {
+	text-decoration: none;
+	color: var(--black);
+	font: var(--headline5);
+}
+
+.hidden {
+	display: none;
+}
+
+.close-mobile-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: red;
+}
+
+.close-mobile-menu > i {
+	block-size: 2rem;
+	inline-size: 2rem;
+	font-size: 2rem;
+	border: 1px solid red;
+	border-radius: 50%;
+}

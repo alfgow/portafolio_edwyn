@@ -7,6 +7,7 @@
 @import url(./contact.css);
 @import url(./footer.css);
 @import url(./states.css);
+@import url(./mobile-menu.css);
 :root {
 	--primary: #5928e5;
 	--white: #ffffff;
