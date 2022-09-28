@@ -1,6 +1,10 @@
 .contact-container {
 	padding-block: 4rem;
-	padding-inline: 1.5rem;
+	padding-inline: 1rem;
+}
+
+.contact-container h3 {
+	text-align: center;
 }
 
 .contact-container h3 {
@@ -12,6 +16,7 @@
 	font: var(--body1);
 	margin: 0;
 	padding-block-end: 3rem;
+	color: var(--black);
 }
 
 .form-content {
@@ -30,4 +35,15 @@
 .form-content textarea::placeholder {
 	color: var(--primary);
 	font: var(--body1);
+}
+
+@media screen and (min-width: 64rem) {
+	.contact-container {
+		padding: 0;
+		inline-size: 28.125rem;
+	}
+	.contact .wrapper {
+		padding-block: 5rem;
+		padding-inline: 25.6rem;
+	}
 }

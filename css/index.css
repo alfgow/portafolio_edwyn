@@ -29,6 +29,10 @@ body {
 	margin: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .wrapper {
 	margin: auto;
 	inline-size: 22.5rem;

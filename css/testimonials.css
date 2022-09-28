@@ -95,8 +95,8 @@
 	.testimonial:last-child {
 		padding-block-end: 6rem;
 	}
-	.testimonials-wrapper {
-		inline-size: 90%;
+	.testimonials {
+		inline-size: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

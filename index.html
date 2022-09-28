@@ -19,17 +19,17 @@
             <img src="./images/logo_edwyn.png" alt="">
         </div>
         <div class="header-menu">
-            <a href="">Hola</a>
-            <a href="">Proyectos</a>
-            <a href="">Testimonios</a>
-            <a href="">Contacto</a>
+            <a href="#main">Hola</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#testimonials">Testimonios</a>
+            <a href="#contact">Contacto</a>
         </div>
         <button class="btn btn-primary">Currículum</button>
     </div>
 </header>
 
 <body>
-    <div class="main">
+    <div class="main" id="main">
         <div class="wrapper">
             <div class="main-avatar">
                 <img class="avatar" src="./images/person.png" alt="">
@@ -65,18 +65,18 @@
 
     </div>
 
-    <div class="projects">
+    <div class="projects" id="projects">
 
         <h3>Proyectos</h3>
 
         <div class="projects-menu">
-            <a href="" class="btn btn-primary">Niko</a>
-            <a href="" class="btn btn-transparent">Marvol</a>
-            <a href="" class="btn btn-transparent">Spotifu</a>
+            <a href="#niko" class="btn btn-primary">Niko</a>
+            <a href="#marvol" class="btn btn-transparent">Marvol</a>
+            <a href="#spotifu" class="btn btn-transparent">Spotifu</a>
         </div>
 
 
-        <div class="project-container">
+        <div class="project-container" id="niko">
             <div class="img">
                 <img src="./images/img-1.png" alt="">
             </div>
@@ -95,7 +95,7 @@
             <div class="content-bg is-primary"></div>
         </div>
 
-        <div class="project-container">
+        <div class="project-container" id="marvol">
             <div class="img">
                 <img src="./images/img-2.png" alt="">
             </div>
@@ -111,7 +111,7 @@
             <div class="content-bg is-secondary"></div>
         </div>
 
-        <div class="project-container">
+        <div class="project-container" id="spotifu">
             <div class="img">
                 <img src="./images/img-3.png" alt="">
             </div>
@@ -133,7 +133,7 @@
 
     </div>
 
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
         <div class="testimonials-wrapper">
             <div class="testimonial-title">
                 <h4>Testimonios</h4>
@@ -215,7 +215,7 @@
             </div>
         </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="wrapper">
             <div class="contact-container">
                 <h3>Contacto</h3>
@@ -232,39 +232,49 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="wrapper">
-            <div class="footer-container">
-                <div class="footer-content">
-                    <div class="contact">
-                        <p>Contacto</p>
-                        <div class="contact-element">
-                            <i class="icon-important_mail"></i>
-                            <a href="">Correo Electrónico</a>
-                        </div>
-                        <div class="contact-element">
-                            <i class="icon-phone"></i>
-                            <a href="">Teléfono</a>
-                        </div>
-                        <div class="contact-element">
-                            <i class="icon-instagram"></i>
-                            <a href="">Instagram</a>
-                        </div>
-                        <div class="contact-element">
-                            <i class="icon-twitter_squared"></i>
-                            <a href="">Twitter</a>
-                        </div>
 
-                    </div>
-                    <img src="./images/logo_edwyn-primary.png" alt="">
-                    <div class="footer-final">
-                        <p>Hecho con <i class="icon-heart_outline"></i> de Edwyn</p>
-                        <p>Copyright 2022 - Todos los derechos reservados.</p>
-                    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="contact">
+                <h5>Contacto</h5>
+                <div class="contact-element">
+                    <i class="icon-important_mail"></i>
+                    <a href="">Correo Electrónico</a>
+                </div>
+                <div class="contact-element">
+                    <i class="icon-phone"></i>
+                    <a href="">Teléfono</a>
+                </div>
+                <div class="contact-element">
+                    <i class="icon-instagram"></i>
+                    <a href="">Instagram</a>
+                </div>
+                <div class="contact-element">
+                    <i class="icon-twitter_squared"></i>
+                    <a href="">Twitter</a>
                 </div>
 
             </div>
+
+            <div class="footer-final">
+                <div class="logo-footer">
+                    <img src="./images/logo_edwyn-primary.png" alt="">
+                </div>
+                <p>Hecho con <i class="icon-heart_outline"></i> de Edwyn - Copyright 2022 - Todos los derechos
+                    reservados.</p>
+            </div>
+
+            <div class="footer-final-mobile">
+                <div class="logo-footer">
+                    <img src="./images/logo_edwyn-primary.png" alt="">
+                </div>
+                <p>Hecho con <i class="icon-heart_outline"></i> de Edwyn</p>
+                <p>Copyright 2022 - Todos los derechos reservados.</p>
+            </div>
         </div>
+        </div>
+
+
     </footer>
 </body>
 

@@ -1,32 +1,98 @@
 footer {
 	background: radial-gradient(
-			52.3% 42.92% at 50% 119.3%,
+			21.81% 50.28% at 50% 111.94%,
 			rgba(254, 224, 217, 0.5) 0%,
 			rgba(255, 255, 255, 0) 100%
 		),
 		#5928e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 
-.footer-container {
-	padding-block: 3rem;
-	padding-inline: 1rem;
+.footer-content {
+	max-inline-size: 68.75rem;
 }
 
-.footer-content .contact {
+.contact h5 {
+	font: var(--headline5);
+	margin: 0;
+}
+
+.contact {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	padding-block-end: 5rem;
-}
-
-.footer-content .contact p,
-.footer-content .contact a,
-.footer-content .contact i,
-.footer-final > * {
-	font: var(--body1);
 	color: var(--white);
 }
 
-.footer-final {
-	padding-block-start: 2rem;
+@media screen and (max-width: 1023px) {
+	.footer-final {
+		display: none;
+	}
+	.footer-final-mobile > * {
+		margin: 0;
+	}
+	.footer-content {
+		inline-size: 22.5rem;
+		margin: auto;
+		padding-block: 3rem;
+	}
+
+	.contact,
+	.contact a,
+	.footer-final-mobile {
+		color: var(--white);
+	}
+
+	.contact {
+		padding-block-end: 5rem;
+	}
+
+	.footer-final-mobile {
+		display: flex;
+		flex-direction: column;
+		gap: 1.875rem;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.footer-final-mobile .logo-footer {
+		inline-size: 6.125rem;
+		block-size: 3.5rem;
+	}
+}
+
+@media screen and (min-width: 64rem) {
+	footer {
+		margin: 0;
+		inline-size: 100%;
+	}
+	.footer-content {
+		padding-block: 3rem;
+		padding-inline: 8.32rem;
+		inline-size: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.contact a {
+		color: var(--white);
+		font: var(--body1);
+	}
+
+	.footer-final p {
+		font: var(--body1);
+		color: var(--white);
+	}
+
+	.footer-final .logo-footer {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.footer-final-mobile {
+		display: none;
+	}
 }

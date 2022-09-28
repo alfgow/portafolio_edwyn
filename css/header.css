@@ -30,9 +30,10 @@ header .wrapper {
 
 @media screen and (min-width: 64rem) {
 	header .wrapper {
-		inline-size: 90%;
-		margin-inline: 133px;
+		inline-size: 100%;
+		inline-size: 68.75rem;
 	}
+
 	.icon-menu {
 		display: none;
 	}
