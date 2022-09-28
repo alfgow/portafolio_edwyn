@@ -23,6 +23,11 @@
 	text-decoration: none;
 	color: var(--black);
 	font: var(--headline5);
+	opacity: 0.5;
+}
+
+.mobile-menu-content a:active {
+	opacity: 1;
 }
 
 .hidden {
